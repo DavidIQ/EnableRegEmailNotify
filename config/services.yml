@@ -1,0 +1,7 @@
+services:
+    davidiq.EnableRegEmailNotify.listener:
+        class: davidiq\EnableRegEmailNotify\event\main_listener
+        arguments:
+            - '@controller.helper'
+        tags:
+            - { name: event.listener }

@@ -1,0 +1,26 @@
+{
+    "name": "davidiq/EnableRegEmailNotify",
+    "type": "phpbb-extension",
+    "description": "Automatically enables e-mail notifications when users register.",
+    "homepage": "https://github.com/DavidIQ/phpBB-EnableRegEmailNotify",
+    "version": "1.0.0-dev",
+    "time": "2016-09-15",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "David Col??n",
+            "email": "davidiq@phpbb.com",
+            "homepage": "http://www.davidiq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Enable e-mail notifications on registration",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}
